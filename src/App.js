@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import DisneyCharacters from './containers/DisneyCharacters';
 
 function App() {
   return (
-    <h1 class='appName'>Disney Characters</h1>
+    <div>
+      <h1 class='appName'>Disney Characters</h1>
+      <DisneyCharacters />
+    </div>
+    
   );
 }
 
